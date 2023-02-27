@@ -78,4 +78,5 @@ if __name__ == "__main__":
     args = parse_args()
 
     # run main function
-    main(args)
+    #main(args)
+    print("yes sir")
