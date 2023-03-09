@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'SP_Devops_AML_Hpr_Connect'
+    azureSubscription: 'SP_Devops_AML_HPR_AMLWRKSP_Connect'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
