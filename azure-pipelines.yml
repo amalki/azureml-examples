@@ -2,6 +2,9 @@ trigger:
 - main
 
 pool:
+  name: Test_AML_SelfHostedAgent
+  demands:
+    - agent.name -equals aml_azdevops_agent
   vmImage: ubuntu-latest
 
 steps:
