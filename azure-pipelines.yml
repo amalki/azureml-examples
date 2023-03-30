@@ -5,7 +5,7 @@ pool:
   name: Test_AML_SelfHostedAgent
   demands:
     - agent.name -equals aml_azdevops_agent
-  vmImage: mcr.microsoft.com/azure-cli
+  vmImage: ubuntu-latest
 
 steps:
 - task: UsePythonVersion@0
